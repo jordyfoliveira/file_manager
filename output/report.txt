@@ -1,0 +1,3 @@
+Top 10 palavras mais comuns:
+1. mundo -> 1
+2. ola -> 1
