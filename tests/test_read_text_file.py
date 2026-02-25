@@ -1,5 +1,5 @@
 from pathlib import Path
-from file_manager import read_text_file
+from main import read_text_file
 
 def test_read_text_file_utf8(tmp_path: Path):
     p = tmp_path / "a.txt"

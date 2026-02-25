@@ -1,4 +1,4 @@
-from file_manager import main
+from main import main
 
 def test_main_text_ok(capsys):
     code = main(["--text", "ola ola mundo", "--n", "2"])
