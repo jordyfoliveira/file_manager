@@ -13,4 +13,4 @@ COPY . .
 ENTRYPOINT ["python"]
 
 # E por defeito o "python" corre o teu app.py
-CMD ["file_manager.py"]
+CMD ["app.py"]

@@ -1,5 +1,5 @@
 from pathlib import Path
-from main import main
+from app import main
 
 def test_main_writes_txt(tmp_path: Path):
     out = tmp_path / "report.txt"

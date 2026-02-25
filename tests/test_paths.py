@@ -1,5 +1,5 @@
 from pathlib import Path
-from main import ensure_txt_path
+from app import ensure_txt_path
 
 def test_ensure_txt_path_directory(tmp_path: Path):
     out_dir = tmp_path / "output"
