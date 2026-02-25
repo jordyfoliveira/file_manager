@@ -1,17 +1,12 @@
 [
   {
     "rank": 1,
-    "word": "teste",
-    "count": 3
+    "word": "ola",
+    "count": 2
   },
   {
     "rank": 2,
     "word": "mundo",
-    "count": 2
-  },
-  {
-    "rank": 3,
-    "word": "ola",
     "count": 1
   }
 ]

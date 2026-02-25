@@ -560,3 +560,57 @@
 2026-02-25 16:28:09,943 - INFO - Relatório guardado em: output\report.txt
 2026-02-25 16:28:09,943 - INFO - JSON guardado em: output\report.json
 2026-02-25 16:29:20,858 - INFO - Aplicação iniciada.
+2026-02-25 17:05:12,891 - INFO - A ler ficheiro (utf-8): input.txt
+2026-02-25 17:05:12,892 - ERROR - Ficheiro não encontrado: input.txt
+2026-02-25 17:06:04,432 - INFO - A ler ficheiro (utf-8): report.txt
+2026-02-25 17:06:19,526 - INFO - Relatório guardado em: output/report.txt
+2026-02-25 17:06:19,532 - INFO - CSV guardado em: output/report.csv
+2026-02-25 17:06:19,537 - INFO - JSON guardado em: output/report.json
+2026-02-25 17:06:47,418 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_txt0/report.txt
+2026-02-25 17:06:47,418 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_txt0/report.txt
+2026-02-25 17:06:47,418 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_txt0/report.txt
+2026-02-25 17:06:47,418 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_txt0/report.txt
+2026-02-25 17:06:47,423 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.txt
+2026-02-25 17:06:47,423 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.txt
+2026-02-25 17:06:47,423 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.txt
+2026-02-25 17:06:47,423 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.txt
+2026-02-25 17:06:47,423 - INFO - Relatório guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.txt
+2026-02-25 17:06:47,424 - INFO - CSV guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.csv
+2026-02-25 17:06:47,424 - INFO - CSV guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.csv
+2026-02-25 17:06:47,424 - INFO - CSV guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.csv
+2026-02-25 17:06:47,424 - INFO - CSV guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.csv
+2026-02-25 17:06:47,424 - INFO - CSV guardado em: /tmp/pytest-of-root/pytest-0/test_main_writes_csv0/report.csv
+2026-02-25 17:06:47,433 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_utf80/a.txt
+2026-02-25 17:06:47,433 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_utf80/a.txt
+2026-02-25 17:06:47,433 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_utf80/a.txt
+2026-02-25 17:06:47,433 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_utf80/a.txt
+2026-02-25 17:06:47,433 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_utf80/a.txt
+2026-02-25 17:06:47,437 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,437 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,437 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,437 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,437 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,438 - WARNING - Falhou utf-8, a tentar latin-1: /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,438 - WARNING - Falhou utf-8, a tentar latin-1: /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,438 - WARNING - Falhou utf-8, a tentar latin-1: /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,438 - WARNING - Falhou utf-8, a tentar latin-1: /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,438 - WARNING - Falhou utf-8, a tentar latin-1: /tmp/pytest-of-root/pytest-0/test_read_text_file_latin1_fal0/b.txt
+2026-02-25 17:06:47,458 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,458 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,458 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,458 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,458 - INFO - A ler ficheiro (utf-8): /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,459 - ERROR - Ficheiro não encontrado: /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,459 - ERROR - Ficheiro não encontrado: /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,459 - ERROR - Ficheiro não encontrado: /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,459 - ERROR - Ficheiro não encontrado: /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:06:47,459 - ERROR - Ficheiro não encontrado: /tmp/pytest-of-root/pytest-0/test_read_text_file_not_found0/nao_existe.txt
+2026-02-25 17:22:25,107 - INFO - A ler ficheiro (utf-8): input.txt
+2026-02-25 17:22:25,108 - ERROR - Ficheiro não encontrado: input.txt
+2026-02-25 17:22:31,969 - INFO - A ler ficheiro (utf-8): report.txt
+2026-02-25 17:22:52,467 - INFO - A ler ficheiro (utf-8): input.txt
+2026-02-25 17:22:52,467 - ERROR - Ficheiro não encontrado: input.txt
+2026-02-25 17:22:59,714 - INFO - A ler ficheiro (utf-8): report.txt
+2026-02-25 17:23:03,476 - INFO - Relatório guardado em: output/report.txt
+2026-02-25 17:23:03,483 - INFO - CSV guardado em: output/report.csv
+2026-02-25 17:23:03,489 - INFO - JSON guardado em: output/report.json
