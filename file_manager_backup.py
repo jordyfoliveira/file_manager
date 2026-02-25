@@ -2,6 +2,7 @@ from text_analysis import top_words, top_words_format
 from pathlib import Path
 import logging
 import csv
+import json
 
 LOG_PATH = Path("logs") / "app.log"
 
@@ -42,6 +43,17 @@ def save_csv(items: list[tuple[str, int]], path: Path) -> None:
         for i, (word, count) in enumerate(items, 1): #Itera sobre a lista de tuplas (palavra, contagem) e escreve cada par no ficheiro CSV, separando-os por vírgula
             #file.write(f"{i},{word},{count}\n") #Escreve cada palavra e sua contagem em uma linha do ficheiro CSV, formatando-os como "rank,palavra,contagem"
             writer.writerow([i, word, count]) #Escreve cada palavra e sua contagem em uma linha do ficheiro CSV usando o objeto writer, formatando-os como "rank,palavra,contagem"
+            
+def save_json(items: list[tuple[str, int]], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True) # cria a pasta output/ se não existir
+
+    data = [
+        {"rank": i, "word": word, "count": count} #Escreve a linha de campos/chaves no ficheiro JSON
+        for i, (word, count) in enumerate(items, 1) #Itera sobre a lista de tuplas (palavra, contagem) e escreve cada par no ficheiro JSON, separando-os por vírgula
+    ]
+
+    with path.open("w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
             
 def setup_logging() -> None:
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True) #cria a pasta logs/ se não existir
@@ -123,7 +135,8 @@ if __name__ == "__main__":
             save_csv(top_words(txt, 10), output_path.with_suffix(".csv")) #Chama a função save_csv para salvar as 10 palavras mais comuns e suas contagens em um ficheiro CSV, usando o mesmo caminho de saída do relatório, mas com a extensão ".csv". Isso permite que os resultados sejam salvos em ambos os formatos, texto e CSV, para facilitar a análise e o compartilhamento dos dados.
             logging.info("Relatório guardado em: %s", output_path) #Regista uma mensagem de log indicando que o relatório foi salvo, incluindo o caminho do ficheiro para facilitar a identificação do processo de salvamento nos logs
             logging.info("CSV guardado em: %s", output_path.with_suffix('.csv')) #Regista uma mensagem de log indicando que o ficheiro CSV foi salvo, incluindo o caminho do ficheiro para facilitar a identificação do processo de salvamento nos logs
-            print(f"Relatório guardado em: {output_path} e CSV em: {output_path.with_suffix('.csv')}") #Exibe uma mensagem indicando o caminho onde o relatório foi salvo, para informar ao user que o processo de salvamento foi concluído com sucesso
+            logging.info("JSON guardado em: %s", output_path.with_suffix('.json')) #Regista uma mensagem de log indicando que o ficheiro JSON foi salvo, incluindo o caminho do ficheiro para facilitar a identificação do processo de salvamento nos logs
+            print(f"Relatório guardado em: {output_path}, CSV em: {output_path.with_suffix('.csv')} e em: {output_path.with_suffix('.json')}") #Exibe uma mensagem indicando o caminho onde o relatório foi salvo, para informar ao user que o processo de salvamento foi concluído com sucesso
     
         else:
             logging.info("Modo leitura.") #Regista uma mensagem de log indicando que o modo de leitura foi selecionado, para facilitar a identificação do processo de escolha nos logs

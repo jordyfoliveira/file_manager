@@ -1,3 +1,4 @@
 Top 10 palavras mais comuns:
-1. mundo -> 1
-2. ola -> 1
+1. teste -> 3
+2. mundo -> 2
+3. ola -> 1
