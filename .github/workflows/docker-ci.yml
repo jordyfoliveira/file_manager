@@ -15,7 +15,8 @@ jobs:
         run: docker build -t file-manager .
 
       - name: Run tests inside image
-        run: docker run --rm file-manager -m pytest -q
+        run: docker run --rm --entrypoint python file-manager -m pytest -q
+        #run: docker run --rm file-manager -m pytest -q
 
       #- name: Run tests
       #  run: docker run --rm --entrypoint python file-manager -m pytest -q
