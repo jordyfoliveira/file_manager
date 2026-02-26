@@ -865,3 +865,45 @@
 2026-02-25 20:38:06,059 - INFO - Relatório guardado em: output/report.txt
 2026-02-25 20:38:06,064 - INFO - CSV guardado em: output/report.csv
 2026-02-25 20:38:06,069 - INFO - JSON guardado em: output/report.json
+2026-02-26 02:24:35,294 - INFO - A ler ficheiro (utf-8): input.txt
+2026-02-26 02:24:35,296 - ERROR - Ficheiro não encontrado: input.txt
+2026-02-26 02:24:43,102 - INFO - A ler ficheiro (utf-8): report.txt
+2026-02-26 02:30:17,325 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_txt0\report.txt
+2026-02-26 02:30:17,325 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_txt0\report.txt
+2026-02-26 02:30:17,325 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_txt0\report.txt
+2026-02-26 02:30:17,325 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_txt0\report.txt
+2026-02-26 02:30:17,340 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.txt
+2026-02-26 02:30:17,340 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.txt
+2026-02-26 02:30:17,340 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.txt
+2026-02-26 02:30:17,340 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.txt
+2026-02-26 02:30:17,340 - INFO - Relatório guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.txt
+2026-02-26 02:30:17,341 - INFO - CSV guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.csv
+2026-02-26 02:30:17,341 - INFO - CSV guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.csv
+2026-02-26 02:30:17,341 - INFO - CSV guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.csv
+2026-02-26 02:30:17,341 - INFO - CSV guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.csv
+2026-02-26 02:30:17,341 - INFO - CSV guardado em: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_main_writes_csv0\report.csv
+2026-02-26 02:30:17,349 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_utf80\a.txt
+2026-02-26 02:30:17,349 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_utf80\a.txt
+2026-02-26 02:30:17,349 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_utf80\a.txt
+2026-02-26 02:30:17,349 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_utf80\a.txt
+2026-02-26 02:30:17,349 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_utf80\a.txt
+2026-02-26 02:30:17,364 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,364 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,364 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,364 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,364 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,373 - WARNING - Falhou utf-8, a tentar latin-1: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,373 - WARNING - Falhou utf-8, a tentar latin-1: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,373 - WARNING - Falhou utf-8, a tentar latin-1: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,373 - WARNING - Falhou utf-8, a tentar latin-1: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,373 - WARNING - Falhou utf-8, a tentar latin-1: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_latin1_fal0\b.txt
+2026-02-26 02:30:17,412 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - INFO - A ler ficheiro (utf-8): C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - ERROR - Ficheiro não encontrado: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - ERROR - Ficheiro não encontrado: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - ERROR - Ficheiro não encontrado: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - ERROR - Ficheiro não encontrado: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt
+2026-02-26 02:30:17,412 - ERROR - Ficheiro não encontrado: C:\Users\Utilizador\AppData\Local\Temp\pytest-of-Utilizador\pytest-17\test_read_text_file_not_found0\nao_existe.txt

@@ -12,4 +12,5 @@ jobs:
       - name: Build
         run: docker build -t file-manager .
       - name: Run pytest
-        run: docker run --rm file-manager -m pytest -q
+        run: docker run --rm --entrypoint python file-manager -m pytest -q
+        #run: docker run --rm file-manager -m pytest -q
